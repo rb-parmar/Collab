@@ -15,7 +15,7 @@ const forgot = document.querySelector('.forgot');
 login.addEventListener('click', () => {
   if (username.value === localStorage.getItem('username') &&
       password.value === localStorage.getItem('password')) {
-        window.location.href = "./index.html";
+        window.open("./index.html", '_self');
   } else {
     forgot.innerText = 'Incorrect username or password';
     forgot.style.color = '#f00'
