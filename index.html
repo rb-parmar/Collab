@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, intitial-scale=1">
+  <meta name="author" content="Rushit Parmar">
+  <meta name="description" content="Collab">
+  <meta name="keywords" content="html, css, web, web development, seo">
+  <title>Collab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="shortcut icon" href="./Assets/image/diamond.png" type="image/x-icon">
+  <link rel="stylesheet" href="./Assets/style/index.css" media="all">
+  <script src="./Assets/script/index.js" defer></script>
+ </head>
+ <body>
+  <!------------------ Header ------------------>
+  <header>
+    <h1>Collab</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">My ads</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="./Assets/image/profile icon.png">
+    </figure>
+  </header>
+
+  <main>
+    <div class="profile">
+
+      <div class="edit"><i class="fa-solid fa-pen-to-square"></i></div>
+      <img src="./assets/image/profile icon.png">
+      <h3>Rushit Parmar</h3>
+      <div class="brief">Software Developer</div>
+      <div class="follow">
+        <div class="followers">
+          <div class="number">78</div>
+          <div class="text">Connections</div>
+        </div>
+        <div>
+          <div class="number">1,369</div>
+          <div class="text">Followers</div>
+        </div>
+      </div>
+      <div class="icon1"><i class="fa-brands fa-github"></i>rb-parmar</div> 
+      <div class="icon2"><i class="fa-brands fa-linkedin"></i>Rushit Parmar</div> 
+      <button>UPGRADE TO PREMIUM</button>
+    </div>
+
+    <!------------------ Form ------------------>
+    <form>
+      <div class="center">
+        <textarea class="textarea" name="textarea" placeholder="What's new, Rushit?"></textarea> 
+        <div class="row">
+          <div>
+            <label for="file">
+              <i class="fa fa-image"></i>
+              <input type="file" class="custom-file" id="file" name="file" accept="image/*" multiple>
+            </label>  
+            <span id="file-name"></span>
+          </div>
+          <input type="button" class="button" value="Post">
+        </div>
+      </div>
+
+      <!------------------ Post ------------------>
+      <div class="display">
+        <!-- Post 1-->
+        <div class="post">
+          <header>
+            <div class="fig-name">
+              <figure>
+                <img src="./assets/image/profile icon.png">
+              </figure>
+              <div class="name">Rushit Parmar</div>        
+            </div>
+            <div class="date"></div>
+          </header>
+      
+          <div class="text">Hello, anyone interested in programming like me 😃.
+            Feel free to message me through my social media accounts or email me 
+            at <a href="#">rushitparmar59@gmail.com</a> for collaboration.
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post">
+          <header>
+            <div class="fig-name">
+              <figure>
+                <img src="./assets/image/profile icon.png">
+              </figure>
+              <div class="name">Rushit Parmar</div>        
+            </div>
+            <div class="date"></div>
+          </header>
+        
+          <div class="text">
+            Are there any sunset🌄 lovers like me out there? <br> 
+            @bapstemplewinnipeg
+          </div>
+          <div class="image"><img src="assets/image/sunset.jpg"></div>
+        </div>
+      </div>
+    </form>
+
+    <div class="people">
+      <h3>People you may know</h3>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+        <div class="fflex">
+            <p class="name">Collab</p>
+            <p class="copy">Copyright &copy; 2023 Collab, Inc.</p>
+            <div class="policy">
+                <p><a href="#">Terms of Use</a> | </p>
+                <p><a href="#">Privacy Policy</a> | </p>
+                <p><a href="#">Upgrade to Premium</a></p>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+ </body>
+</html>
