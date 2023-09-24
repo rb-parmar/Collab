@@ -5,3 +5,6 @@
 </p>
 
 Click [here](https://rb-parmar.github.io/Collab/login.html) to view my website.
+
+Username: Rushit
+Password: 1254
